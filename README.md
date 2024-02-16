@@ -24,34 +24,34 @@
     - userRoutes.js
   - auth
     - verifyToken.js
-  - app.js (or server.js)
+  - index.js
+  - db.js
 - node_modules
 - package.json
-- ...
 
 ## Features ✨
 
 # Lists Routes:
 
-- [x]Handles CRUD operations for lists.
-- [x]Uses middleware verify for authentication.
-- [x]Supports creating and deleting lists.
-- [x]Supports fetching lists based on type and genre.
+- [x] Handles CRUD operations for lists.
+- [x] Uses middleware verify for authentication.
+- [x] Supports creating and deleting lists.
+- [x] Supports fetching lists based on type and genre.
 
 # Movies Routes:
 
-- [x]Manages CRUD operations for movies.
-- [x]Also includes a route to get a random movie.
-- [x]Utilizes middleware verify for authentication.
-- [x]Allows updating, deleting, fetching movies by ID, and fetching all movies.
-- [x]Supports fetching a random movie based on type (series or movie).
+- [x] Manages CRUD operations for movies.
+- [x] Also includes a route to get a random movie.
+- [x] Utilizes middleware verify for authentication.
+- [x] Allows updating, deleting, fetching movies by ID, and fetching all movies.
+- [x] Supports fetching a random movie based on type (series or movie).
 
 # User Routes:
 
-- [x]Handles user-related operations like updating, deleting, and fetching users.
+- [x] Handles user-related operations like updating, deleting, and fetching users.
 - [x] routes for user authentication like logout and logout from all devices.
-- [x]Provides functionality to get user statistics.
-- [x]Uses middleware verify for authentication.
+- [x] Provides functionality to get user statistics.
+- [x] Uses middleware verify for authentication.
 
 ## Setting Up Your Local Environment
 
@@ -93,7 +93,7 @@ Follow these steps to set up your local environment for the Netflix-API:
 
 During API development, I use `Postman` for handling/testing all endpoints.
 
-- Postman collection/documentation is available on this link [click here](https://documenter.getpostman.com/view/28708948/2s9YRGw8PW)
+- Postman collection/documentation is available on this link [click here](#)
 - Base URL endpoints: `http://127.0.0.1:5000/api/V1/` or `http://localhost:PORT/api/v1/`
 
 ## License
